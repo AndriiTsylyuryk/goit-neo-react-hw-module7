@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/goit-neo-react-hw-module7/',
   build: {
     sourcemap: true,
   }
